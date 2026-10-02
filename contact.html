@@ -42,12 +42,12 @@
   <label for="opt-select">What are you getting in touch about?</label>
 <select id="opt-select">
   <optgroup>
-    <option>Volunteering</option>
-    <option>Donating goods,</option>
-    <option>Donating funds</option>
-    <option>Joining a fundraiser campaign</option>
-    <option>Leading a third-party event</option>
-    <option>General question</option>
+    <option value="Volunteering">Volunteering</option>
+    <option value="Donating goods">Donating goods,</option>
+    <option value="Donating funds">Donating funds</option>
+    <option value="Joining a fundraiser campaign">Joining a fundraiser campaign</option>
+    <option value="Leading a third-party event">Leading a third-party event</option>
+    <option value="General question">General question</option>
   </optgroup>
 </select>
 
@@ -64,10 +64,10 @@
 <textarea id="story" name="story" rows="2" cols="23"></textarea>
 
 <div class="preference">
-  <input type="checkbox" name="yes" id="yes" />
-  <label for="yes">Yes, send me news about the herd</label>
+  <input type="checkbox" name="yes" id="newsletter" value="subscribe" />
+  <label for="newletter">Yes, send me news about the herd</label>
 </div>
-<button type="button" name="button">Send message <a href="submit.html"></a> </button> 
+<button type="submit" name="button">Send message <a href="submit.html"></a> </button> 
       <br />
       <h2>Reach Us</h2>
       <ul>
