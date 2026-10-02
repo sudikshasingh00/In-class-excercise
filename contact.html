@@ -6,120 +6,143 @@
     <title>Dusty Toes | Contact</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="get-to-know-us.html">Get-To-Know-Us</a></li>
+          <li><a href="get-involved.html">Get-involved</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="visit-us.html">Visit-us</a></li>
+          <li><a href="support-us.html">Support-Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-        <section>
-      <h1>Contact Us</h1>
-      <br />
-      <p>
-        Questions about the herd, volunteering, or how to help? We would love to
-        hear from you.
-      </p>
-</section>
-<section>
-      <h2>Get in Touch</h2>
-      <p>
-        We are a volunteer team, and most of us are outside for a good part of
-        the day. Give us a few days to come back to you, and say in your first
-        message whether you are asking about a visit, volunteering, donating, or
-        one of the animals.
-      </p>
+      <section>
+        <h1>Contact Us</h1>
+        <br />
+        <p>
+          Questions about the herd, volunteering, or how to help? We would love
+          to hear from you.
+        </p>
       </section>
       <section>
-      <h2>Send us a message </h2>
-    <br>
-    <form action="submit.html" method="post">
-  <div class="form-example">
-    <label for="name">Name </label>
-    <input type="text" name="name" id="name" required />
-  </div>
-  <div class="form-example">
-    <label for="email">Email </label>
-    <input type="email" name="email" id="email" value="name@example.com"required />
-  </div>
-  <div class="form-example">
-    <label for="phone">Phone (optional) </label>
-    <input type="number" name="phone" id="phone" required />
-  </div>
-
-  <label for="opt-select">What are you getting in touch about?</label>
-<select id="opt-select">
-  <optgroup>
-    <option value="Volunteering">Volunteering</option>
-    <option value="Donating goods">Donating goods,</option>
-    <option value="Donating funds">Donating funds</option>
-    <option value="Joining a fundraiser campaign">Joining a fundraiser campaign</option>
-    <option value="Leading a third-party event">Leading a third-party event</option>
-    <option value="General question">General question</option>
-  </optgroup>
-</select>
-
-  <form method="post">
-  <fieldset>
-    <legend>How should we apply?</legend>
-    <label><input type="radio" name="radio" value="email" /> By email</label>
-    <br>
-    <label><input type="radio" name="radio" value="phone" /> By phone</label>
-  </fieldset>
-</form>
-
-<label for="message">Your messaage</label>
-<textarea id="story" name="story" rows="2" cols="23"></textarea>
-
-<div class="preference">
-  <input type="checkbox" name="yes" id="newsletter" value="subscribe" />
-  <label for="newletter">Yes, send me news about the herd</label>
-</div>
-<button type="submit" name="button">Send message <a href="submit.html"></a> </button> 
-      <br />
+        <h2>Get in Touch</h2>
+        <p>
+          We are a volunteer team, and most of us are outside for a good part of
+          the day. Give us a few days to come back to you, and say in your first
+          message whether you are asking about a visit, volunteering, donating,
+          or one of the animals.
+        </p>
       </section>
       <section>
-      <h2>Reach Us</h2>
-      <ul>
-        You can also email us at <a href="hello@dustytoes.example">hello@dustytoes.example</a>
-      </ul>
-      <ul>
-        Follow along — [social handles as they go live]
-      </ul>
-      <br />
-</section>
-<section>
-      <h2>Where We Are</h2>
-      <br />
-      <p>
-        The herd lives in the Lanark Highlands, Ontario, on the farm that has
-        always been their home. We do not publish the address, because it is a
-        private residence as well as a working farm. Everyone visiting gets
-        directions when their visit is arranged.
-      </p>
-      <br />
-</section>
-<section>
-      <h2>Before You Write</h2>
-      <p>
-        A few things we are asked often, answered here to save you the email.
-      </p>
-      <ul>
-        We are not able to take in more animals at the moment. If you are
-        looking for help with a camelid, write to us anyway and we will point
-        you where we can.
-      </ul>
-      <ul>
-        We do not breed, and no animal here is for sale.
-      </ul>
-      <ul>
-        We do not sell beans. The Shop page explains why.
-      </ul>
-      <ul>
-        Visits are by arrangement only. Please do not arrive unannounced — it is
-        somebody’s home.
-      </ul>
-      <ul>
-        Please leave dogs at home.
-      </ul>
-</section>
-      
+        <h2>Send us a message</h2>
+        <br />
+
+        <div class="form-example">
+          <label for="name">Name </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+          <label for="email">Email </label>
+          <input type="radio" id="email" name="email" value="email" checked />
+        </div>
+        <div class="form-example">
+          <label for="phone">Phone (optional) </label>
+          <input type="number" name="phone" id="phone" required />
+        </div>
+
+        <label for="opt-select">What are you getting in touch about?</label>
+        <select id="opt-select">
+          <optgroup>
+            <option value="Volunteering">Volunteering</option>
+            <option value="Donating goods">Donating goods,</option>
+            <option value="Donating funds">Donating funds</option>
+            <option value="Joining a fundraiser campaign">
+              Joining a fundraiser campaign
+            </option>
+            <option value="Leading a third-party event">
+              Leading a third-party event
+            </option>
+            <option value="General question">General question</option>
+          </optgroup>
+        </select>
+
+        <form method="post">
+          <fieldset>
+            <legend>How should we apply?</legend>
+            <label
+              ><input type="radio" name="radio" value="email" /> By email</label
+            >
+            <br />
+            <label
+              ><input type="radio" name="radio" value="phone" /> By phone</label
+            >
+          </fieldset>
+        </form>
+
+        <label for="message">Your messaage</label>
+        <textarea id="story" name="story" rows="2" cols="23"></textarea>
+
+        <div class="preference">
+          <input type="checkbox" name="yes" id="newsletter" value="subscribe" />
+          <label for="newletter">Yes, send me news about the herd</label>
+        </div>
+        <button type="submit" name="button">
+          Send message <a href="submit.html"></a>
+        </button>
+        <br />
+      </section>
+      <section>
+        <h2>Reach Us</h2>
+        <ul>
+          You can also email us at
+          <a href="hello@dustytoes.example">hello@dustytoes.example</a>
+        </ul>
+        <ul>
+          Follow along — [social handles as they go live]
+        </ul>
+        <br />
+      </section>
+      <section>
+        <h2>Where We Are</h2>
+        <br />
+        <p>
+          The herd lives in the Lanark Highlands, Ontario, on the farm that has
+          always been their home. We do not publish the address, because it is a
+          private residence as well as a working farm. Everyone visiting gets
+          directions when their visit is arranged.
+        </p>
+        <br />
+      </section>
+      <section>
+        <h2>Before You Write</h2>
+        <p>
+          A few things we are asked often, answered here to save you the email.
+        </p>
+        <ul>
+          We are not able to take in more animals at the moment. If you are
+          looking for help with a camelid, write to us anyway and we will point
+          you where we can.
+        </ul>
+        <ul>
+          We do not breed, and no animal here is for sale.
+        </ul>
+        <ul>
+          We do not sell beans. The Shop page explains why.
+        </ul>
+        <ul>
+          Visits are by arrangement only. Please do not arrive unannounced — it
+          is somebody’s home.
+        </ul>
+        <ul>
+          Please leave dogs at home.
+        </ul>
+      </section>
     </main>
 
     <footer></footer>
