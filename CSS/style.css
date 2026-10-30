@@ -4,7 +4,7 @@
     font-family: Atkinson Hyperlegible;
     font-size: 16px;
     line-height: normal;
-    background-color: #F19143;
+    background-color: #E6EBE0;
 }
 :heading {
   font-family: Sue Ellen Francisco;
@@ -14,14 +14,19 @@
 h1{
   font-size: 3.5rem;
   letter-spacing: 0.1rem;
+  color: #2C423F ;
+  background-color: #F4F1BB;
 }
 h2{
   font-size: 2rem;
   letter-spacing: 0.1rem;
+  color: #4C5B61;
+  background-color: #F2EFC7;
 }
 h3{
   font-size: 1.9rem;
   letter-spacing: 0.2rem;
+  background-color: #FEFEE3;
 }
 h4 {
   font-size: 1.3rem;
@@ -31,3 +36,12 @@ h4 {
   max-width: 1440px;
   margin: 0 auto;
 }
+p {
+  color: #2C423F ;
+}
+blockquote {
+  color: #949B96;
+}
+img {
+    display: block; 
+    width: 100%; }
